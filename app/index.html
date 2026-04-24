@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting to Koottukaari App</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script>
+    function redirectUser() {
+      var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+      // Koottukaari app links
+      var androidLink = "https://play.google.com/store/apps/details?id=com.fl.koottukaari&pcampaignid=web_share";
+      var iosLink = "https://apps.apple.com/in/app/koottukaari/id6741097232";
+      var fallbackLink = "https://koottukaari.co.in/"; // optional website fallback
+
+      if (/android/i.test(userAgent)) {
+        window.location.replace(androidLink);
+      }
+      else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        window.location.replace(iosLink);
+      }
+      else {
+        window.location.replace(fallbackLink);
+      }
+    }
+
+    window.onload = redirectUser;
+  </script>
+</head>
+
+<body style="font-family: Arial, sans-serif; text-align: center; padding: 40px;">
+  <h2>Redirecting to Koottukaari…</h2>
+  <p>If you are not redirected automatically, choose your platform below:</p>
+
+  <p>
+    <a href="https://play.google.com/store/apps/details?id=com.fl.koottukaari&pcampaignid=web_share">
+      👉 Download for Android
+    </a>
+  </p>
+
+  <p>
+    <a href="https://apps.apple.com/in/app/koottukaari/id6741097232">
+      👉 Download for iOS
+    </a>
+  </p>
+</body>
+
+</html>

@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Site made with Mobirise Website Builder v6.0.1, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v6.0.1, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/cute.jpeg" type="image/x-icon">
+  <meta name="description" content="">
+
+
+  <title>Home</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/parallax/jarallax.css">
+  <link rel="stylesheet" href="assets/animatecss/animate.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;600&display=swap"
+    rel="stylesheet">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=xrlcCu">
+  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=xrlcCu" type="text/css">
+
+
+
+
+
+  <style>
+    :root {
+      --bg-dark: #0a0a0f;
+      --bg-card: #161625;
+      --accent-cyan: #00f2fe;
+      --accent-blue: #4facfe;
+      --glass-bg: rgba(10, 10, 15, 0.75);
+      --text-main: #ffffff;
+      --text-muted: #a0a0c0;
+      --font-main: 'Outfit', sans-serif;
+      --font-body: 'Inter', sans-serif;
+    }
+
+    body {
+      font-family: var(--font-body) !important;
+      background: radial-gradient(circle at 50% 50%, #1a1a2e 0%, #0a0a0f 100%) !important;
+      color: var(--text-main) !important;
+    }
+
+    section {
+      background: transparent !important;
+    }
+
+    /* Advanced Navbar Styles */
+    .navbar-dropdown {
+      background: var(--glass-bg) !important;
+      backdrop-filter: blur(20px) saturate(180%);
+      -webkit-backdrop-filter: blur(20px) saturate(180%);
+      border: 1px solid rgba(0, 242, 254, 0.2);
+      border-radius: 20px !important;
+      margin: 15px 20px !important;
+      width: calc(100% - 40px) !important;
+      left: 0 !important;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4) !important;
+      transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+
+    .navbar-caption {
+      background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 900 !important;
+      font-size: 2rem !important;
+      letter-spacing: -1px;
+      animation: gradientFlow 5s ease infinite;
+      background-size: 200% auto;
+    }
+
+    @keyframes gradientFlow {
+      0% {
+        background-position: 0% 50%;
+      }
+
+      50% {
+        background-position: 100% 50%;
+      }
+
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    .nav-link {
+      color: #ffffff !important;
+      font-weight: 600 !important;
+      position: relative;
+      transition: color 0.3s ease;
+      opacity: 0.8;
+    }
+
+    .nav-link:hover {
+      opacity: 1;
+      color: var(--accent-cyan) !important;
+    }
+
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: 0;
+      left: 50%;
+      background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue));
+      transition: all 0.3s ease;
+      transform: translateX(-50%);
+    }
+
+    .nav-link:hover::after {
+      width: 80%;
+    }
+
+    .navbar-buttons .btn {
+      background: linear-gradient(45deg, var(--accent-cyan), var(--accent-blue)) !important;
+      border: none !important;
+      color: #000 !important;
+      font-weight: 700 !important;
+      box-shadow: 0 4px 15px rgba(0, 242, 254, 0.3) !important;
+      transform: scale(1);
+      transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .navbar-buttons .btn:hover {
+      transform: scale(1.05) translateY(-2px);
+      box-shadow: 0 8px 25px rgba(0, 242, 254, 0.5) !important;
+    }
+
+    /* Core Components */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .mbr-section-title,
+    .item-title {
+      font-family: var(--font-main) !important;
+      font-weight: 800 !important;
+      color: #ffffff !important;
+    }
+
+    .mbr-text,
+    p {
+      color: var(--text-muted) !important;
+    }
+
+    .text-danger {
+      color: var(--accent-cyan) !important;
+    }
+
+    .btn-danger,
+    .btn-primary,
+    .btn-success {
+      background: linear-gradient(45deg, var(--accent-cyan), var(--accent-blue)) !important;
+      border: none !important;
+      color: #000 !important;
+      border-radius: 50px !important;
+      font-weight: 700 !important;
+      padding: 12px 30px !important;
+    }
+
+    .item-wrapper {
+      border-radius: 30px !important;
+      background: var(--bg-card) !important;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3) !important;
+      transition: all 0.3s ease;
+    }
+
+    .item-wrapper:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 30px 60px rgba(0, 242, 254, 0.1) !important;
+      border-color: rgba(0, 242, 254, 0.3);
+    }
+
+    .footer1 {
+      background: #050508 !important;
+      color: var(--text-muted) !important;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .mbr-overlay {
+      background-color: var(--bg-dark) !important;
+      opacity: 0.7 !important;
+    }
+
+    .social-row .soc-item {
+      background: rgba(255, 255, 255, 0.05) !important;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .social-row .soc-item:hover {
+      background: var(--accent-cyan) !important;
+    }
+
+    .social-row .soc-item:hover span {
+      color: #000 !important;
+    }
+  </style>
+</head>
+
+<body>
+
+  <section data-bs-version="5.1" class="menu menu2 cid-tJS6tZXiPa" once="menu" id="menu02-0">
+
+
+    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+      <div class="container">
+        <div class="navbar-brand">
+          <span class="navbar-logo">
+            <a href="Home.html#header05-1">
+              <img src="assets/images/cute.jpeg" alt="CuteKaari" class="w-100"
+                style="max-height: 100px; border-radius: 10px;">
+            </a>
+          </span>
+          <span class="navbar-caption-wrap"><a class="navbar-caption text-danger display-4"
+              href="Home.html#header05-1">CuteKaari</a></span>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse"
+          data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
+            <li class="nav-item"><a class="nav-link link show text-white display-4" href="Home.html#header05-1">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link show text-white display-4" href="Home.html#header01-7"
+                aria-expanded="false">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link text-white display-4" href="Home.html#features04-w"
+                aria-expanded="false">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link text-white display-4" href="Contact.html#contacts01-1o">Contacts</a>
+            </li>
+          </ul>
+
+          <div class="navbar-buttons mbr-section-btn"><a class="btn btn-danger-outline display-4"
+              href="https://play.google.com/store/apps/details?id=com.fl.koottukaari" target="_blank">Get it on Google
+              Play</a></div>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <section data-bs-version="5.1" class="header5 cid-tJS6uM4N87" id="header05-1">
+
+
+
+
+    <div class="topbg"></div>
+    <div class="align-center container">
+      <div class="row justify-content-center">
+        <div class="col-md-12 col-lg-9">
+          <h1 class="mbr-section-title mbr-fonts-style mb-4 display-2"><strong>Your Personalized Fitness Consultation
+              Platform 💪🎯</strong></h1>
+          <p class="mbr-text mbr-fonts-style mb-4 display-7">At CuteKaari, we offer one-on-one audio consultations with
+            certified fitness consultants, sports experts, and health advisors—so you can get expert answers to all your
+            fitness-related questions anytime, anywhere!<br><br>🚀 Need guidance on building the perfect workout
+            plan?<br>🏋️ Curious about injury prevention techniques?<br>🥗 Looking for diet and nutrition advice that
+            suits your goals?<br>⚡ Want to optimize your recovery and performance?<br><br>With our flexible
+            pay-as-you-go model, you can choose your expert, ask your questions, and receive personalized advice—all
+            through a convenient audio call, without long-term commitments. Get the clarity, motivation, and knowledge
+            you need to take your fitness to the next level!<br><br>💡 Expert support at your fingertips. Start your
+            journey with CuteKaari today!</p>
+          <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-7"
+              href="https://play.google.com/store/apps/details?id=com.fl.koottukaari" target="_blank"><span
+                class="mobi-mbri mobi-mbri-download mbr-iconfont mbr-iconfont-btn"></span>Install Now to Begin Your
+              Journey with CuteKaari&nbsp;</a></div>
+        </div>
+      </div>
+      <div class="row mt-5 justify-content-center">
+        <div class="col-12 col-lg-12">
+          <img src="assets/images/cute.jpeg" alt="CuteKaari" title="" class="w-100"
+            style="border-radius: 30px; box-shadow: 0 20px 40px rgba(0,0,0,0.2);">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section data-bs-version="5.1" class="features4 cid-tMlEXTHLbS" id="features04-w">
+
+    <div class="mbr-overlay"></div>
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-12 content-head">
+          <div class="mbr-section-head mb-5">
+            <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2"><strong>Our Services</strong></h4>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="item features-image col-12 col-md-6 col-lg-4 active">
+          <div class="item-wrapper">
+            <div class="item-img">
+              <img src="assets/images/untitled-design-1755x1920.webp" alt="Mobirise Website Builder" data-slide-to="0"
+                data-bs-slide-to="0">
+            </div>
+            <div class="item-content">
+              <h5 class="item-title mbr-fonts-style display-5"><strong>Audio Consultations</strong></h5>
+
+              <p class="mbr-text mbr-fonts-style display-7">
+                Speak with our friendly consultants over a call and share your thoughts, concerns, or questions in a
+                safe and private space.
+              </p>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="item features-image col-12 col-md-6 col-lg-4">
+          <div class="item-wrapper">
+            <div class="item-img">
+              <img src="assets/images/untitled-design-1755x1920.webp" alt="Mobirise Website Builder" data-slide-to="1"
+                data-bs-slide-to="1">
+            </div>
+            <div class="item-content">
+              <h5 class="item-title mbr-fonts-style display-5"><strong>Language Selection 🌍</strong></h5>
+
+              <p class="mbr-text mbr-fonts-style display-7">
+                Choose your preferred language to speak with our fitness experts for a comfortable and personalized
+                consultation experience.
+              </p>
+
+            </div>
+          </div>
+        </div>
+        <div class="item features-image col-12 col-md-6 col-lg-4">
+          <div class="item-wrapper">
+            <div class="item-img">
+              <img src="assets/images/untitled-design-1755x1920.webp" alt="Mobirise Website Builder" data-slide-to="2"
+                data-bs-slide-to="2">
+            </div>
+            <div class="item-content">
+              <h5 class="item-title mbr-fonts-style display-5"><strong>Easy Coin Recharge</strong></h5>
+
+              <p class="mbr-text mbr-fonts-style display-7">Use our convenient coin system to book consultations.
+                Recharge your balance with just a few taps using our popular plans.<br>
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <section data-bs-version="5.1" class="header1 cid-tJS9vXDdRK mbr-fullscreen mbr-parallax-background" id="header01-7">
+
+
+
+    <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(38, 38, 38);"></div>
+
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-12 col-lg-6 image-wrapper">
+          <img class="w-100" src="assets/images/cute.jpeg" alt="CuteKaari" style="border-radius: 20px;">
+        </div>
+        <div class="col-12 col-lg col-md-12">
+          <div class="text-wrapper align-left">
+            <h1 class="mbr-section-title mbr-fonts-style mb-4 display-2"><strong>About us</strong></h1>
+            <p class="mbr-text mbr-fonts-style mb-4 display-7">At CuteKaari, we believe that the right guidance can
+              transform your fitness journey. Our platform connects you with certified fitness consultants, sports
+              experts, and health advisors through secure one-on-one audio consultations, helping you make informed
+              decisions about your health and fitness.<br><br>Whether you need personalized workout guidance, injury
+              prevention tips, nutrition advice, or recovery strategies, our experienced fitness professionals are here
+              to provide expert insights and answer your questions. With our flexible pay-as-you-go model, you get
+              on-demand fitness consultations without long-term commitments—just expert advice whenever you need
+              it.<br><br>💡 Certified Experts. Personalized Guidance. Anytime, Anywhere.<br><br>Take the first step
+              towards a stronger, healthier you with CuteKaari.<br><br>App designed &amp; developed by NYM IT Solutions
+              Customer Service.</p>
+            <div class="mbr-section-btn mt-3"><a class="btn btn-success display-7"
+                href="https://play.google.com/store/apps/details?id=com.fl.koottukaari" target="_blank">Start now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section data-bs-version="5.1" class="features15 cid-tLek7gQhG7" data-bg-video="https://vimeo.com/428046504"
+    id="features015-m">
+
+
+    <div class="mbr-fallback-image disabled"></div>
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(255, 255, 255);"></div>
+    <div class="container">
+      <div class="mbr-section-head mb-5">
+        <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+          <strong>Why us?</strong>
+        </h4>
+
+      </div>
+      <div class="row justify-content-center">
+        <div class="item features-without-image col-12 col-lg-4 active">
+          <div class="item-wrapper">
+            <div class="img-wrapper">
+              <img src="assets/images/mbr-171x128.webp" alt="Mobirise Website Builder" data-slide-to="0"
+                data-bs-slide-to="0">
+            </div>
+            <div class="card-box">
+              <h4 class="card-title mbr-fonts-style mb-3 display-5"><strong>✅ Certified Professionals</strong></h4>
+              <h5 class="card-text mbr-fonts-style display-7">Connect with experienced consultants for expert guidance.
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="item features-without-image col-12 col-lg-4">
+          <div class="item-wrapper">
+            <div class="img-wrapper">
+              <img src="assets/images/mbr-1-171x128.webp" alt="Mobirise Website Builder" data-slide-to="1"
+                data-bs-slide-to="1">
+            </div>
+            <div class="card-box">
+              <h4 class="card-title mbr-fonts-style mb-3 display-5"><strong>✅ Certified Fitness Experts</strong></h4>
+              <h5 class="card-text mbr-fonts-style display-7">Get one-on-one guidance from experienced fitness
+                consultants, sports specialists, and health advisors.</h5>
+            </div>
+          </div>
+        </div>
+        <div class="item features-without-image col-12 col-lg-4">
+          <div class="item-wrapper">
+            <div class="img-wrapper">
+              <img src="assets/images/mbr-171x114.webp" alt="Mobirise Website Builder" data-slide-to="2"
+                data-bs-slide-to="2">
+            </div>
+            <div class="card-box">
+              <h4 class="card-title mbr-fonts-style mb-3 display-5"><strong>Easy Recharge System</strong></h4>
+              <h5 class="card-text mbr-fonts-style display-7">Top up your wallet effortlessly with a variety of coin
+                plans to suit your needs.</h5>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section data-bs-version="5.1" class="form5 cid-tJS9pBcTSa" id="form02-6">
+
+    <div class="mbr-overlay"></div>
+    <div class="container">
+      <div class="mbr-section-head mb-5">
+        <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+          <strong>Contact Form</strong>
+        </h3>
+
+      </div>
+      <div class="row justify-content-center mt-4">
+        <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
+          <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler"
+            data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true"
+              value="gxJ2V3S+qBU2c8TwLIqlGEDiqV6gI0i7kQg9PsdHON59u8cqsTt05kl8U+S5+Qvgu4pjkLpbq4AYUgfLQPqSAUNDym5i1yhhFqqEbypMXVzo2JFLnQVuJjqLTKaoyu7Y">
+            <div class="row">
+              <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the
+                form!</div>
+              <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
+                Oops...! some problem!
+              </div>
+            </div>
+            <div class="dragArea row">
+              <div class="col-md col-sm-12 form-group mb-3" data-for="name">
+                <input type="text" name="name" placeholder="Name" data-form-field="name" class="form-control" value=""
+                  id="name-form02-6">
+              </div>
+              <div class="col-md col-sm-12 form-group mb-3" data-for="email">
+                <input type="email" name="email" placeholder="Email" data-form-field="email" class="form-control"
+                  value="" id="email-form02-6">
+              </div>
+              <div class="col-12 form-group mb-3" data-for="phone">
+                <input type="tel" name="phone" placeholder="Phone" data-form-field="phone" class="form-control" value=""
+                  id="phone-form02-6">
+              </div>
+              <div class="col-12 form-group mb-3" data-for="textarea">
+                <textarea name="textarea" placeholder="Message" data-form-field="textarea" class="form-control"
+                  id="textarea-form02-6"></textarea>
+              </div>
+              <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn"><button type="submit"
+                  class="btn btn-primary display-7">Send message</button></div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section data-bs-version="5.1" class="footer1 programm5 cid-tJS9NNcTLZ mbr-parallax-background" once="footers"
+    id="footer03-8">
+
+
+
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(38, 38, 38);">
+    </div>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="row-links mb-4">
+          <ul class="header-menu">
+
+
+
+
+            <li class="header-menu-item mbr-fonts-style display-5"><a href="Home.html#header01-7"
+                class="text-danger text-primary">About</a></li>
+            <li class="header-menu-item mbr-fonts-style display-5"><a href="Home.html#features04-w"
+                class="text-danger text-primary">Services</a></li>
+            <li class="header-menu-item mbr-fonts-style display-5"><a href="Contact.html#contacts01-1o"
+                class="text-danger text-primary">Contacts</a></li>
+            <li class="header-menu-item mbr-fonts-style display-5"><a href="Terms and Conditions.html#news04-20"
+                class="text-danger text-primary">Terms and Conditions</a></li>
+            <li class="header-menu-item mbr-fonts-style display-5"><a href="Privacy Policy.html#news04-22"
+                class="text-danger text-primary">Privacy Policy</a></li>
+            <li class="header-menu-item mbr-fonts-style display-5"><a
+                href="Refund and Cancellation Policy.html#news04-24" class="text-danger text-primary">Refund and
+                Cancellation Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-12">
+          <div class="social-row">
+            <div class="soc-item">
+              <a href="tel:+919526134260">
+                <span class="mbr-iconfont display-7 socicon-whatsapp socicon"></span>
+              </a>
+            </div>
+            <div class="soc-item">
+              <a href="tel:+919526134260">
+                <span class="mbr-iconfont mobi-mbri-phone mobi-mbri"></span>
+              </a>
+            </div>
+            <div class="soc-item">
+              <a href="mailto:cutekaari2026@gmail.com">
+                <span class="mbr-iconfont mbri-letter"></span>
+              </a>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="col-12 mt-5">
+          <p class="mbr-fonts-style copyright display-7"><strong>CuteKaari is owned by NYM IT Solutions Customer
+              Service</strong>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="display-7"
+    style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;">
+    <a href="https://mobiri.se/3636668" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img
+        alt="" style="height: 4rem;"
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a>
+    <p style="margin: 0;text-align: center;" class="display-7">&#8204;</p><a style="z-index:1"
+      href="https://mobirise.com/builder/ai-website-generator.html">AI Website Generator</a>
+  </section>
+  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/parallax/jarallax.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/ytplayer/index.js"></script>
+  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
+  <script src="assets/vimeoplayer/player.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  <script src="assets/formoid/formoid.min.js"></script>
+
+
+  <input name="animation" type="hidden">
+</body>
+
+</html>
